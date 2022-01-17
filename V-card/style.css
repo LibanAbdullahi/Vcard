@@ -26,6 +26,7 @@ h2{
   min-height: 100vh;
 }
 
+
 .left{
   width: 20%;
   background-color: #240099;
@@ -189,3 +190,12 @@ h2{
   background: rgb(170, 155, 155);
 }
 
+@media only screen and (max-width: 768px) and (min-width: 301px) {
+  body {
+    background-color: green;
+  }
+
+  @media only screen and (max-width: 768px) and (min-width: 301px) {
+.left {
+  background-color: green;
+}
